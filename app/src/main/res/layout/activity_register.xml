@@ -58,6 +58,21 @@
         app:layout_constraintStart_toStartOf="@id/ed_register_name"
         app:layout_constraintTop_toBottomOf="@id/ed_register_name" />
 
+    <EditText
+        android:id="@+id/ed_register_city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/custom_edit_text"
+        android:hint="City"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingHorizontal="8dp"
+        app:layout_constraintEnd_toEndOf="@id/ed_register_email"
+        app:layout_constraintStart_toStartOf="@id/ed_register_email"
+        app:layout_constraintTop_toBottomOf="@id/ed_register_email" />
+
     <com.example.barterbuddy.view.customview.CustomEditText
         android:id="@+id/ed_register_password"
         android:layout_width="0dp"
@@ -68,9 +83,9 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:paddingHorizontal="8dp"
-        app:layout_constraintEnd_toEndOf="@id/ed_register_email"
-        app:layout_constraintStart_toStartOf="@id/ed_register_email"
-        app:layout_constraintTop_toBottomOf="@id/ed_register_email" />
+        app:layout_constraintEnd_toEndOf="@id/ed_register_city"
+        app:layout_constraintStart_toStartOf="@id/ed_register_city"
+        app:layout_constraintTop_toBottomOf="@id/ed_register_city" />
 
     <Button
         android:id="@+id/btn_sign_up"
